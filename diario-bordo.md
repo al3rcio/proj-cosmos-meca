@@ -26,4 +26,4 @@ E navega até **Interfacing Options > VNC* e selecione *YES*
 Após, digite `ifconfig` para descobrir o IP da Raspberry. 
 O IP será usado para entrar pelo computador pessoal, utilizando o aplicativo VNC.
 
-
+OK.
