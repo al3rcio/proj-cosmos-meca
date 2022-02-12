@@ -13,15 +13,15 @@ Tutorial disponível em ://help.realvnc.com/hc/en-us/articles/360002249917-VNC-C
 
 Na Raspberry, utilizando monitor, mouse e teclado, aperte Ctrl + alt + T para abrir o Terminal.
 
-> sudo apt-get update
->
-> sudo apt-get install realvnc-vnc-server
+` sudo apt-get update
+`
+` sudo apt-get install realvnc-vnc-server
 
 Depois, rode o commando
 
-> sudo raspi-config
+` sudo raspi-config`
 
-E navega até **Interfacing Options > VNC* e selecione *YES*
+E navega até **Interfacing Options > VNC** e selecione **YES**
 
 Após, digite `ifconfig` para descobrir o IP da Raspberry. 
 O IP será usado para entrar pelo computador pessoal, utilizando o aplicativo VNC.
