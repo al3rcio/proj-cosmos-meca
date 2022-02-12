@@ -13,9 +13,15 @@ Tutorial disponível em ://help.realvnc.com/hc/en-us/articles/360002249917-VNC-C
 
 Na Raspberry, utilizando monitor, mouse e teclado, aperte Ctrl + alt + T para abrir o Terminal.
 
+<<<<<<< HEAD
 ` sudo apt-get update`
 
 ` sudo apt-get install realvnc-vnc-server`
+=======
+` sudo apt-get update
+`
+` sudo apt-get install realvnc-vnc-server
+>>>>>>> 1eaf1ca063608331f08c546a6f5c098e09d8dd30
 
 Depois, rode o commando
 
