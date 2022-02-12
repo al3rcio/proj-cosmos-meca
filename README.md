@@ -14,7 +14,7 @@ Baixar a imagem disponibilizada Raspbian com Processing.
 
 ## Configurando Raspberry remotamente
 
-Tutorial disponível em ://help.realvnc.com/hc/en-us/articles/360002249917-VNC-Connect-and-Raspberry-Pi#setting-up-your-raspberry-pi-0-0 | Acesso em 11/02/2022.
+Tutorial disponível em https://help.realvnc.com/hc/en-us/articles/360002249917-VNC-Connect-and-Raspberry-Pi#setting-up-your-raspberry-pi-0-0 | Acesso em 11/02/2022.
 
 Na Raspberry, utilizando monitor, mouse e teclado, aperte Ctrl + alt + T para abrir o Terminal.
 
