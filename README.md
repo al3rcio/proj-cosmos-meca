@@ -61,4 +61,7 @@ Depois, quando quiser rodar a sketch, de dentro da pasta, no terminal, onde est�
 
 Voilà! [pelo menos por aqui a coisa tá funcionando! :]
 
+## Transformando VIM em uma (entre aspas) IDE
 
+Como a minha ideia aqui é rodar sobretudo programas escritos em Python, resolvi seguir esse tutorial [aqui](https://realpython.com/vim-and-python-a-match-made-in-heaven/).
+Ele é bem autoexplicativo, mesmo sendo em inglês. 
