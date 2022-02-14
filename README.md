@@ -65,3 +65,27 @@ Voilà! [pelo menos por aqui a coisa tá funcionando! :]
 
 Como a minha ideia aqui é rodar sobretudo programas escritos em Python, resolvi seguir esse tutorial [aqui](https://realpython.com/vim-and-python-a-match-made-in-heaven/).
 Ele é bem autoexplicativo, mesmo sendo em inglês. 
+
+Quando chegou na parte da instalação do YouCompleteMe, alguns problemas apareceram. A versão do VIM precisa ser 8.1+ e o Python 3.6+, ambas versões estavam desatualizadas no Pi. 
+O Python precisou ser compilado ~na mão~. Segui as instruções dessesite [aqui](https://raspberrytips.com/install-latest-python-raspberry-pi/), e instalei a versão 3.9.5, com esses passos aqui:
+
+```
+wget https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tgz
+tar -zxvf Python-3.9.5.tgz
+cd Python-3.9.5
+./configure --enable-optimizations
+sudo make altinstall
+```
+
+Ali na execução das confiurações leva um tempinho, e depois na instalação mesmo são mais vários minutos. Depois, vale a pena atualizar manualmente o uso dos aliases python e python3 pra versão mais recente.
+
+```
+cd /usr/bin
+sudo rm python
+sudo ln -s /usr/local/bin/python3.9 python
+python --version
+```
+
+Aí tá descrito como fazer pra python, mas dá pra usar pro python3, só fazendo as respectivas mudanças.
+
+
