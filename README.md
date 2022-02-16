@@ -88,4 +88,15 @@ python --version
 
 Aí tá descrito como fazer pra python, mas dá pra usar pro python3, só fazendo as respectivas mudanças.
 
+Pra deixar o python configurado pro VIM, como `+python3` foi um certo perrengue. Tive que compilar __na mão__ o VIM. Segui basicamente esse [site](https://en.dlyang.me/install-vim-on-raspberry-pi-with-python3-support/). Tive só que fazer as adaptações pra versão do Python que eu tinha instalado. Isso deu um pouco de trabalho, até entender exatamente em que pasta ele estaria. Nessas buscas, descobri o comando `python3.9-config` no meu caso, que deu as informações de diretório que eu precisava, ou pelo menos como acessar elas. O comando é no terminal, e pode ser usado pra versão que tiver instalada, só mudaro número depois de python. Depois, na hora de compilar, ou logo antes, na pasta `/vim/src` 
+
+```
+./configure --with-features=huge --enable-cscope --enable-multibyte \
+  		--enable-rubyinterp --enable-pythoninterp --enable-python3interp \
+		--with-python3-command=python \
+            --with-python3-config-dir=/usr/local/lib/python3.9/config-3.9-arm-linux-gnueabihf \
+```
+
+Isso que funcionou pra mim! :)
+
 
